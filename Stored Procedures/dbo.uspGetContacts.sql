@@ -15,10 +15,8 @@ AS
 
         SET NOCOUNT ON;
         SELECT FirstName PersonType ,
-               PersonType ,
-               NameStyle ,
-               Title ,
-               Suffix
+               PersonType 
+               
         FROM   Person.Person;
     END;
 GO
