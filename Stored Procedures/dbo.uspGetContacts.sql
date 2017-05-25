@@ -14,9 +14,9 @@ AS
     BEGIN
 
         SET NOCOUNT ON;
-        SELECT FirstName,
-               PersonType 
-               
+        SELECT FirstName ,
+               LastName ,
+               PersonType
         FROM   Person.Person;
     END;
 GO
